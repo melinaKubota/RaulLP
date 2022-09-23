@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+/* #191245
+#ff9700 */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-width: 320px;
+    max-width: auto;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    max-width: 100vw;
+    overflow-x: hidden; /* esconde o que sobresai*/
+    overflow-y: scroll;
+    color: #000;
+    display: block;
+    position: relative;
+}
+
+header{
+    display: block; 
+    width: 40%; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 0%, 3%; 
+    background-color: #e82139; 
+    height: 1000%; 
+    z-index: 12; 
+    position: fixed;
+    
+}
+
+.cabecalho{
+    height: 3.5em;
+    margin-bottom: 1em;
+    position: fixed;
+    text-align: center;
+    color: #ff9700;
+}
+
+.cabecalhoTexto{
+    margin: 0.1em auto;
+    pad: 0 0.2em;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10%;
+    z-index: 1000;
+    background-color: #ff9700;
+    /* will-change: top; */
+    /* transition-duration: .2s; */
+    /* transition-timing-function: ease-in; */
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 3% 0;
+    /* overflow: hidden; */
+    position: fixed; 
+}
+
+.textoChamada{
+    color: #191245;
+    font-size: 150%;
+    text-decoration: none;
+    font-weight: bolder;
+} 
+
+.cliqueAqui{
+    text-decoration: none;
+}
+u{
+    color: blue
+}
+
+#cliqueAqui{
+    color: #FFF;
+    font-size: 80%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Pagina azul */
+.principal{
+    padding: 50%;
+}
+
+.primeiroBloco{
+    background-color: #00296b;
+    padding-bottom: 20px;
+}
+
+#programaIntro{
+    padding: 0.1%;
+    /* font-style: italic; */
+    font-weight: bolder;
+    text-shadow: rgba(0, 0, 0, 0, 0.3);
+    color: #FFF;
+}
+
+#pVermelho{
+    color: #e82139;
+    font-size: 55px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 85px;
+    
+    /* text-shadow: 4px 0px 5px #e82139; */
+    text-shadow: 0px 47px 153px #ff4900, 
+    0px 19.6355px 63.9197px rgb(255 73 0 / 72%), 
+    0px 10.4981px 34.1746px rgb(255 73 0 / 60%), 
+    0px 5.88513px 19.158px rgb(255 73 0 / 50%); 
+     /* 0px 3.12555px 10.1747px rgb(255 73 0 / 40%), */
+    /*  0px 1.30061px 4.2339px rgb(255 73 0 / 28%); */
+}
+
+.h3Bola{
+    font-size: 25px;
+    margin-top: 60px;
+    padding: auto;
+}
+
+/* .h3Video{
+    font-size: 20px;
+    padding: 2%;
+    align-items: center;
+} */
+
+.video {
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    align-items: center;
+}
+
+.video iframe, .video object, .video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.posVideo{
+    padding: 2%;   
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.btn{
+    background-color: #ff9700;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+    color: #191245;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: bolder;
+    line-height: 1;
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    box-shadow: 3px 3px 1px 0 #921624;
+    border: none;
+    animation: animacaoBotao 1s 1s ease-in-out ;
+    width: 45%;
+    display: inline-flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    justify-content: center;
+    box-shadow: 0px 14px 80px rgb(255 73 0 / 49%), 0px 5.84887px 33.4221px rgb(255 73 0 / 35%), 0px 3.12708px 17.869px rgb(255 73 0 / 29%), 0px 1.75302px 10.0172px rgb(255 73 0 / 25%), 0px 0.931014px 5.32008px rgb(255 73 0 / 20%), 0px 0.387416px 2.21381px rgb(255 73 0 / 14%);
+}
+.btn .linkVenda{
+   /*  width: 50%; */
+    line-height: 23px;
+    padding: 10px;
+}
+
+.linkVenda{
+    text-decoration: none;
+    color: #FFF;
+    align-items: center;
+}
+
+.simbolo{
+    width: 50%;
+}
+/* quando clica com o mouse */
+.btn:focus{
+    box-shadow: none; 
+}
+
+/* button */
+
+@keyframes animacaoBotao{
+    10%{
+        transform: rotate(-30deg);
+    }
+    20%{
+        transform: rotate(30deg);
+    }
+    35%{
+        transform: rotate(-30deg);
+    }
+    55%{
+        transform: rotate(30deg);
+    }
+    75%{
+        transform: rotate(-30deg);
+    }
+}
+
+/* PROVA SOCIAL - BRANCO */
+#first p{
+    color: #00296b;
+    font-weight: bolder;
+}
+
+.segundoBloco{
+    grid-template-columns: 1;
+    margin: 4%;
+    padding-top: 20px;
+    padding-bottom: 5px;
+
+}
+.prova{
+    width: 85%;
+    margin-bottom: 3px;
+}
+#provaSocial{
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    align-items: center;
+}
+
+.subtituloAzul{
+    color:#00296b;
+    font-weight: bolder 20px;
+}
+.subtituloBranco{
+    color: #FFF;
+    font-weight: 900;
+}
+
+/*COMO FUNCIONA  */
+#terceiroBloco{
+    padding: 10%;
+    background-color: #00296b;
+    margin-top: 20px;
+  
+}
+#comoFunciona{
+
+    color: white;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.subtituloBranco{
+    color: #FFF;
+    font-weight: 900;
+}
+
+.textSaiba{
+    padding: 0,70%;
+}
+.paragrafoUm{
+    margin: 5px;
+}
+
+.barra{
+    color: #e82139;
+    font-weight: 1000;
+}
+.tituloFase{
+    color: #e82139;
+    text-transform: uppercase; 
+    font-weight: bold;
+}
+.textoFase{
+    font-weight: 800;
+}
+
+/* BONUS */
+#quartoBloco{
+    background-color: #FFF;
+    opacity: 0.9;
+}
+#bonus{
+    margin: 0%;
+    padding: 7%;
+    
+}
+
+.intro{
+    padding: 3%;
+    color: #191245;
+}
+.tituloBonus{
+    font-weight: 800;
+    text-align: left;
+}
+
+.textoBonus{
+    font-weight: 600;
+    text-align: left;
+    size: 20%;
+}
+
+.info img, .intro img{
+    width: 25%;
+}
+
+/* quintoBloco */
+.quintoBloco{
+
+}
+.depoimento{
+    margin: 5%;
+    font-weight: 900;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+.videoDepoimento{
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 3px;}
+    
+.videoDepoimento iframe, .video object, .video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* apresentação */
+#apresentacao{
+    padding: 0%;
+    background-color: #00296b;
+    color: black;   
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    padding-bottom: 20px;
+}
+
+.perfil{
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding-top: 30px;
+    padding-bottom: 10px;
+    max-width: 95vw;
+}
+
+.perfil p{
+    font-weight: bolder;
+    text-align: justify; 
+    color: #FFF;
+    margin-top: 4%;
+}
+
+#treinadoraPerfil{    
+    border-top-right-radius: 100px;
+    width: 50%;
+}
+
+.descricaoProfissional{
+    flex-grow: 1;
+    max-width: 80vw;
+    width: 600px;
+    height: 100%;
+}
+
+.descricaoProfissional * { /* todos os filhos */
+    margin-top: 2px;
+    margin-bottom: 2%;
+}
+
+/* faq */
+#setimoBloco{
+    background-color: #FFF;
+}
+#faq{
+    color: #00296b;
+    margin: 20px,0;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
+}
+#h2faq{
+    padding: 5%;
+    font-size: 30px;
+}
+
+.arrow{
+    font-weight: 700;
+    line-height: 1;
+    margin: 0;
+    padding: 15px;
+    border-bottom: 1px;
+   /*  solid: #d4d4d4; */
+    cursor: pointer;
+    outline: none;
+    text-align: left;
+    text-decoration: none;
+}
+
+.arrow p{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.active{
+    display: block !important;
+}
+
+.rotate{
+    transform: rotate(180deg);
+    transition: 300ms;
+}
+
+.animation{
+    transition:300ms;
+}
+
+#tempo, #garantia, #acesso, #local p {
+    margin-top: 0;
+    margin-bottom: 0.9rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #ffffff;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    font-style: normal;
+}
+
+#local p {
+    margin: 20px;
+}
+
+.escondido{
+    margin: 20px;
+    font-weight: 600;
+    font-style: normal;
+    color: #00296b;
+}
+
+.butonFlutuante{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 15px;
+    right: 15px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+    /* box-shadow: 1px, 1px, 2px, #888; */
+    /* z-index: 1000; */
+}
+
+.bi{
+    vertical-align: -0.089em;
+}
+/* RODAPE */
+.rodape {
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 20px;
+    background-color: #00296b;
+    color: #FFF;
+}
+.textAzul{
+    color:#fff;
+    font-weight: 100;
+}
+
+.icones {
+    margin: 7px;
+    width: 50px;
+}
+
+@media screen and (max-width:575.98px){
+    img{
+      width: 100%; 
+    }
+    .comofunciona{
+        max-width: 95%;
+        width: 100vw;
+        margin: 2px;
+    }
+
+   .btn{
+       font-size: 14px;
+       max-width: 335px;
+   }
+   .video{
+    align-items: center;
+   }
+}
+
